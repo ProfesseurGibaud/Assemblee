@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<acteur xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="IdActeur_type">PA605745</uid>
+  <etatCivil>
+    <ident>
+      <civ>M.</civ>
+      <prenom>Nicolas</prenom>
+      <nom>Sansu</nom>
+      <alpha>Sansu</alpha>
+      <trigramme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </ident>
+    <infoNaissance>
+      <dateNais>1968-06-17</dateNais>
+      <villeNais>Vierzon</villeNais>
+      <depNais>Cher</depNais>
+      <paysNais>France</paysNais>
+    </infoNaissance>
+    <dateDeces xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  </etatCivil>
+  <profession>
+    <libelleCourant>Permanent politique</libelleCourant>
+    <socProcINSEE>
+      <catSocPro>Cadres de la fonction publique, professions intellectuelles et  artistiques</catSocPro>
+      <famSocPro>Cadres et professions intellectuelles supérieures</famSocPro>
+    </socProcINSEE>
+  </profession>
+  <uri_hatvp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <adresses>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseMail_Type">
+      <uid>AD648778</uid>
+      <type>15</type>
+      <typeLibelle>Mèl</typeLibelle>
+      <poids xsi:nil="true"/>
+      <adresseDeRattachement xsi:nil="true"/>
+      <valElec>nsansu@assemblee-nationale.fr</valElec>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdressePostale_Type">
+      <uid>AD649064</uid>
+      <type>0</type>
+      <typeLibelle>Adresse officielle</typeLibelle>
+      <poids>1</poids>
+      <adresseDeRattachement xsi:nil="true"/>
+      <intitule>Assemblée nationale</intitule>
+      <numeroRue>126</numeroRue>
+      <nomRue>Rue de l'Université</nomRue>
+      <complementAdresse xsi:nil="true"/>
+      <codePostal>75355</codePostal>
+      <ville>Paris 07 SP</ville>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdressePostale_Type">
+      <uid>AD649065</uid>
+      <type>2</type>
+      <typeLibelle>Adresse publiée de circonscription</typeLibelle>
+      <poids>22</poids>
+      <adresseDeRattachement xsi:nil="true"/>
+      <intitule>Hôtel de Ville</intitule>
+      <numeroRue xsi:nil="true"/>
+      <nomRue xsi:nil="true"/>
+      <complementAdresse xsi:nil="true"/>
+      <codePostal>18100</codePostal>
+      <ville>Vierzon</ville>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseTelephonique_Type">
+      <uid>AD649066</uid>
+      <type>11</type>
+      <typeLibelle>Téléphone</typeLibelle>
+      <poids>22</poids>
+      <adresseDeRattachement>AD649065</adresseDeRattachement>
+      <valElec>02 48 52 65 00</valElec>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseTelephonique_Type">
+      <uid>AD649067</uid>
+      <type>12</type>
+      <typeLibelle>Télécopie</typeLibelle>
+      <poids>22</poids>
+      <adresseDeRattachement>AD649065</adresseDeRattachement>
+      <valElec>02 48 52 65 47</valElec>
+    </adresse>
+  </adresses>
+  <mandats>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatAvecSuppleant_Type">
+      <uid>PM707167</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>COMNL</typeOrgane>
+      <dateDebut>2015-04-02</dateDebut>
+      <datePublication>2015-04-02</datePublication>
+      <dateFin>2015-05-07</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO415287</organeRef>
+      </organes>
+      <suppleants/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatMission_Type">
+      <uid>PM701525</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>MISINFOPRE</typeOrgane>
+      <dateDebut>2014-05-23</dateDebut>
+      <datePublication>2014-05-24</datePublication>
+      <dateFin>2014-10-02</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO701489</organeRef>
+      </organes>
+      <libelle xsi:nil="true"/>
+      <missionSuivanteRef xsi:nil="true"/>
+      <missionPrecedenteRef xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM685888</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>PARPOL</typeOrgane>
+      <dateDebut>2012-12-01</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>5</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO684926</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatMission_Type">
+      <uid>PM688410</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>MISINFO</typeOrgane>
+      <dateDebut>2012-12-05</dateDebut>
+      <datePublication>2012-12-06</datePublication>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>10</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO683565</organeRef>
+      </organes>
+      <libelle xsi:nil="true"/>
+      <missionSuivanteRef xsi:nil="true"/>
+      <missionPrecedenteRef xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatMission_Type">
+      <uid>PM707476</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>MISINFO</typeOrgane>
+      <dateDebut>2014-10-01</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>10</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO707458</organeRef>
+      </organes>
+      <libelle xsi:nil="true"/>
+      <missionSuivanteRef xsi:nil="true"/>
+      <missionPrecedenteRef xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM702183</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>CNPS</typeOrgane>
+      <dateDebut>2014-07-03</dateDebut>
+      <datePublication>2014-07-03</datePublication>
+      <dateFin>2014-12-19</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO702090</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM708870</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>CNPE</typeOrgane>
+      <dateDebut>2015-07-07</dateDebut>
+      <datePublication>2015-07-08</datePublication>
+      <dateFin>2015-12-31</dateFin>
+      <preseance>16</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Rapporteur</codeQualite>
+        <libQualite>Rapporteur</libQualite>
+        <libQualiteSex>Rapporteur</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO708697</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM708829</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>CNPE</typeOrgane>
+      <dateDebut>2015-07-02</dateDebut>
+      <datePublication>2015-07-03</datePublication>
+      <dateFin>2015-12-31</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO708697</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM700916</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>CNPE</typeOrgane>
+      <dateDebut>2014-04-16</dateDebut>
+      <datePublication>2014-04-17</datePublication>
+      <dateFin>2014-10-30</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO700816</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatMission_Type">
+      <uid>PM701792</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>MISINFOPRE</typeOrgane>
+      <dateDebut>2014-06-04</dateDebut>
+      <datePublication>2014-06-12</datePublication>
+      <dateFin>2014-10-02</dateFin>
+      <preseance>8</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Secrétaire</codeQualite>
+        <libQualite>Secrétaire</libQualite>
+        <libQualiteSex>Secrétaire</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO701489</organeRef>
+      </organes>
+      <libelle xsi:nil="true"/>
+      <missionSuivanteRef xsi:nil="true"/>
+      <missionPrecedenteRef xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM656596</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>GP</typeOrgane>
+      <dateDebut>2012-06-26</dateDebut>
+      <datePublication>2012-06-27</datePublication>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre du</libQualite>
+        <libQualiteSex>Membre du</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO656018</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM656817</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>COMPER</typeOrgane>
+      <dateDebut>2012-06-28</dateDebut>
+      <datePublication>2012-06-28</datePublication>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>32</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO59048</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM701024</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>CNPE</typeOrgane>
+      <dateDebut>2014-04-30</dateDebut>
+      <datePublication>2014-05-01</datePublication>
+      <dateFin>2014-10-30</dateFin>
+      <preseance>14</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Secrétaire</codeQualite>
+        <libQualite>Secrétaire</libQualite>
+        <libQualiteSex>Secrétaire</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO700816</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM695839</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>GE</typeOrgane>
+      <dateDebut>2013-07-08</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>0</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO695593</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatMission_Type">
+      <uid>PM711539</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>MISINFO</typeOrgane>
+      <dateDebut>2016-02-10</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>15</preseance>
+      <nominPrincipale>0</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Rapporteur</codeQualite>
+        <libQualite>Rapporteur sur "La transparence et la gestion de la dette publique"</libQualite>
+        <libQualiteSex>Rapporteur sur "La transparence et la gestion de la dette publique"</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO683565</organeRef>
+      </organes>
+      <libelle xsi:nil="true"/>
+      <missionSuivanteRef xsi:nil="true"/>
+      <missionPrecedenteRef xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatParlementaire_type">
+      <uid>PM645435</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>ASSEMBLEE</typeOrgane>
+      <dateDebut>2012-06-20</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>50</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>membre</codeQualite>
+        <libQualite>membre</libQualite>
+        <libQualiteSex>membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO644420</organeRef>
+      </organes>
+      <suppleants>
+        <suppleant>
+          <dateDebut>2012-06-20</dateDebut>
+          <dateFin>2017-06-20</dateFin>
+          <suppleantRef>PA643121</suppleantRef>
+        </suppleant>
+      </suppleants>
+      <chambre xsi:nil="true"/>
+      <election>
+        <lieu>
+          <region>Centre-Val de Loire</region>
+          <regionType>Métropolitain</regionType>
+          <departement>Cher</departement>
+          <numDepartement>18</numDepartement>
+          <numCirco>2</numCirco>
+        </lieu>
+        <causeMandat>élections générales</causeMandat>
+        <refCirconscription>PO644498</refCirconscription>
+      </election>
+      <mandature>
+        <datePriseFonction>2012-06-20</datePriseFonction>
+        <causeFin>Fin de législature</causeFin>
+        <premiereElection>0</premiereElection>
+        <placeHemicycle xsi:nil="true"/>
+        <mandatRemplaceRef xsi:nil="true"/>
+      </mandature>
+      <collaborateurs xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM695841</uid>
+      <acteurRef>PA605745</acteurRef>
+      <legislature>14</legislature>
+      <typeOrgane>GE</typeOrgane>
+      <dateDebut>2013-07-08</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-06-20</dateFin>
+      <preseance>4</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Co-Président</codeQualite>
+        <libQualite>Co-Président</libQualite>
+        <libQualiteSex>Co-Président</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO695593</organeRef>
+      </organes>
+    </mandat>
+  </mandats>
+</acteur>

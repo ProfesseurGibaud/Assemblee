@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<acteur xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="IdActeur_type">PA534</uid>
+  <etatCivil>
+    <ident>
+      <civ>M.</civ>
+      <prenom>Jacques</prenom>
+      <nom>Blanc</nom>
+      <alpha>Blanc jacques</alpha>
+      <trigramme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </ident>
+    <infoNaissance>
+      <dateNais>1939-10-21</dateNais>
+      <villeNais>Rodez</villeNais>
+      <depNais>Aveyron</depNais>
+      <paysNais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </infoNaissance>
+    <dateDeces xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  </etatCivil>
+  <profession>
+    <libelleCourant>Neuropsychiatre</libelleCourant>
+    <socProcINSEE>
+      <catSocPro>Professions libérales et assimilés</catSocPro>
+      <famSocPro>Cadres et professions intellectuelles supérieures</famSocPro>
+    </socProcINSEE>
+  </profession>
+  <uri_hatvp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <adresses>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdressePostale_Type">
+      <uid>AD46385</uid>
+      <type>0</type>
+      <typeLibelle>Adresse officielle</typeLibelle>
+      <poids>1</poids>
+      <adresseDeRattachement xsi:nil="true"/>
+      <intitule>Casier de la Poste,</intitule>
+      <numeroRue xsi:nil="true"/>
+      <nomRue xsi:nil="true"/>
+      <complementAdresse>Palais Bourbon,</complementAdresse>
+      <codePostal>75355</codePostal>
+      <ville>Paris 07 SP</ville>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdressePostale_Type">
+      <uid>AD46386</uid>
+      <type>2</type>
+      <typeLibelle>Adresse publiée de circonscription</typeLibelle>
+      <poids>21</poids>
+      <adresseDeRattachement xsi:nil="true"/>
+      <intitule xsi:nil="true"/>
+      <numeroRue xsi:nil="true"/>
+      <nomRue>Route des Clauzes,</nomRue>
+      <complementAdresse xsi:nil="true"/>
+      <codePostal>48500</codePostal>
+      <ville>La Canourgue</ville>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseTelephonique_Type">
+      <uid>AD47999</uid>
+      <type>11</type>
+      <typeLibelle>Téléphone</typeLibelle>
+      <poids>21</poids>
+      <adresseDeRattachement>AD46386</adresseDeRattachement>
+      <valElec>04 66 32 82 55</valElec>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseMail_Type">
+      <uid>AD191423</uid>
+      <type>15</type>
+      <typeLibelle>Mèl</typeLibelle>
+      <poids xsi:nil="true"/>
+      <adresseDeRattachement xsi:nil="true"/>
+      <valElec>jblanc@assemblee-nationale.fr</valElec>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseSiteWeb_Type">
+      <uid>AD316962</uid>
+      <type>23</type>
+      <typeLibelle>Url sénateur</typeLibelle>
+      <poids xsi:nil="true"/>
+      <adresseDeRattachement xsi:nil="true"/>
+      <valElec>https://www.senat.fr/senateur/blanc_jacques01005j.html</valElec>
+    </adresse>
+  </adresses>
+  <mandats>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM314308</uid>
+      <acteurRef>PA534</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>API</typeOrgane>
+      <dateDebut>2004-10-01</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2011-09-30</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO206064</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM286443</uid>
+      <acteurRef>PA534</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>GROUPESENAT</typeOrgane>
+      <dateDebut>2002-12-11</dateDebut>
+      <datePublication>2002-12-11</datePublication>
+      <dateFin>2011-09-30</dateFin>
+      <preseance>4</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO286005</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM318546</uid>
+      <acteurRef>PA534</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>DELEGSENAT</typeOrgane>
+      <dateDebut>2004-10-13</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2008-10-07</dateFin>
+      <preseance xsi:nil="true"/>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite xsi:nil="true"/>
+        <libQualite>Vice-Président</libQualite>
+        <libQualiteSex>Vice-Président</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO317934</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM415990</uid>
+      <acteurRef>PA534</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>COMSENAT</typeOrgane>
+      <dateDebut>2008-10-07</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2011-09-30</dateFin>
+      <preseance xsi:nil="true"/>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite xsi:nil="true"/>
+        <libQualite>Vice-Président</libQualite>
+        <libQualiteSex>Vice-Président</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO211491</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM320167</uid>
+      <acteurRef>PA534</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>COMSENAT</typeOrgane>
+      <dateDebut>2004-10-07</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2008-10-06</dateFin>
+      <preseance xsi:nil="true"/>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite xsi:nil="true"/>
+        <libQualite>Vice-Président</libQualite>
+        <libQualiteSex>Vice-Président</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO211491</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatParlementaire_type">
+      <uid>PM227133</uid>
+      <acteurRef>PA534</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>SENAT</typeOrgane>
+      <dateDebut>2001-10-01</dateDebut>
+      <datePublication>2001-10-02</datePublication>
+      <dateFin>2011-09-30</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Sénateur</codeQualite>
+        <libQualite>SENATEUR</libQualite>
+        <libQualiteSex>SENATEUR</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO78718</organeRef>
+      </organes>
+      <suppleants/>
+      <chambre xsi:nil="true"/>
+      <election>
+        <lieu>
+          <region xsi:nil="true"/>
+          <regionType xsi:nil="true"/>
+          <departement xsi:nil="true"/>
+          <numDepartement>48</numDepartement>
+          <numCirco xsi:nil="true"/>
+        </lieu>
+        <causeMandat xsi:nil="true"/>
+      </election>
+      <mandature>
+        <datePriseFonction xsi:nil="true"/>
+        <causeFin xsi:nil="true"/>
+        <premiereElection>0</premiereElection>
+        <placeHemicycle xsi:nil="true"/>
+        <mandatRemplaceRef xsi:nil="true"/>
+      </mandature>
+      <collaborateurs xsi:nil="true"/>
+    </mandat>
+  </mandats>
+</acteur>

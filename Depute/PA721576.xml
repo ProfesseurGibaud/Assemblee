@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<acteur xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="IdActeur_type">PA721576</uid>
+  <etatCivil>
+    <ident>
+      <civ>Mme</civ>
+      <prenom>Sylvie</prenom>
+      <nom>Bouchet Bellecourt</nom>
+      <alpha>BouchetBellecourt</alpha>
+      <trigramme>SBOU</trigramme>
+    </ident>
+    <infoNaissance>
+      <dateNais>1957-07-03</dateNais>
+      <villeNais>Bondy</villeNais>
+      <depNais>Seine-Inférieure</depNais>
+      <paysNais>France</paysNais>
+    </infoNaissance>
+    <dateDeces xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  </etatCivil>
+  <profession>
+    <libelleCourant>Infirmière libérale</libelleCourant>
+    <socProcINSEE>
+      <catSocPro>Professions intermédiaires de l'enseignement, de la santé, de la fonction publique et assimilés</catSocPro>
+      <famSocPro>Professions Intermédiaires</famSocPro>
+    </socProcINSEE>
+  </profession>
+  <uri_hatvp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <adresses>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdressePostale_Type">
+      <uid>AD721578</uid>
+      <type>0</type>
+      <typeLibelle>Adresse officielle</typeLibelle>
+      <poids>1</poids>
+      <adresseDeRattachement xsi:nil="true"/>
+      <intitule>Assemblée nationale,</intitule>
+      <numeroRue>126</numeroRue>
+      <nomRue>Rue de l'Université,</nomRue>
+      <complementAdresse xsi:nil="true"/>
+      <codePostal>75355</codePostal>
+      <ville>Paris 07 SP</ville>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdressePostale_Type">
+      <uid>AD772846</uid>
+      <type>2</type>
+      <typeLibelle>Adresse publiée de circonscription</typeLibelle>
+      <poids>2</poids>
+      <adresseDeRattachement xsi:nil="true"/>
+      <intitule>Permanence parlementaire</intitule>
+      <numeroRue>202</numeroRue>
+      <nomRue>Rue grande</nomRue>
+      <complementAdresse xsi:nil="true"/>
+      <codePostal>77300</codePostal>
+      <ville>Fontainebleau</ville>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseMail_Type">
+      <uid>AD772886</uid>
+      <type>15</type>
+      <typeLibelle>Mèl</typeLibelle>
+      <poids xsi:nil="true"/>
+      <adresseDeRattachement xsi:nil="true"/>
+      <valElec>sylvie.bouchetbellecourt@assemblee-nationale.fr</valElec>
+    </adresse>
+  </adresses>
+  <mandats>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM772873</uid>
+      <acteurRef>PA721576</acteurRef>
+      <legislature>15</legislature>
+      <typeOrgane>GP</typeOrgane>
+      <dateDebut>2020-06-24</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin xsi:nil="true"/>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre du</libQualite>
+        <libQualiteSex>Membre du</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO730934</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM772877</uid>
+      <acteurRef>PA721576</acteurRef>
+      <legislature>15</legislature>
+      <typeOrgane>COMPER</typeOrgane>
+      <dateDebut>2020-06-24</dateDebut>
+      <datePublication>2020-06-24</datePublication>
+      <dateFin xsi:nil="true"/>
+      <preseance>32</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO419865</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM772847</uid>
+      <acteurRef>PA721576</acteurRef>
+      <legislature>15</legislature>
+      <typeOrgane>GP</typeOrgane>
+      <dateDebut>2020-06-23</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2020-06-23</dateFin>
+      <preseance>28</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Député non-inscrit</codeQualite>
+        <libQualite>Député non-inscrit</libQualite>
+        <libQualiteSex>Députée non-inscrite</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO723569</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatParlementaire_type">
+      <uid>PM772844</uid>
+      <acteurRef>PA721576</acteurRef>
+      <legislature>15</legislature>
+      <typeOrgane>ASSEMBLEE</typeOrgane>
+      <dateDebut>2017-06-18</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin xsi:nil="true"/>
+      <preseance>50</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>membre</codeQualite>
+        <libQualite>membre</libQualite>
+        <libQualiteSex>membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO717460</organeRef>
+      </organes>
+      <suppleants/>
+      <chambre xsi:nil="true"/>
+      <election>
+        <lieu>
+          <region>Ile-de-France</region>
+          <regionType>Métropolitain</regionType>
+          <departement>Seine-et-Marne</departement>
+          <numDepartement>77</numDepartement>
+          <numCirco>2</numCirco>
+        </lieu>
+        <causeMandat>remplacement d'un député ayant démissionné pour cause d’incompatibilité prévue aux articles LO 137, LO 137-1, LO 141 ou LO 141-1 du code électoral</causeMandat>
+        <refCirconscription>PO718284</refCirconscription>
+      </election>
+      <mandature>
+        <datePriseFonction>2020-06-23</datePriseFonction>
+        <causeFin xsi:nil="true"/>
+        <premiereElection>0</premiereElection>
+        <placeHemicycle>025</placeHemicycle>
+        <mandatRemplaceRef xsi:nil="true"/>
+      </mandature>
+      <collaborateurs xsi:nil="true"/>
+      <collaborateurs xsi:nil="true"/>
+    </mandat>
+  </mandats>
+</acteur>

@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<acteur xmlns="http://schemas.assemblee-nationale.fr/referentiel">
+  <uid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="IdActeur_type">PA1275</uid>
+  <etatCivil>
+    <ident>
+      <civ>M.</civ>
+      <prenom>Hubert</prenom>
+      <nom>Falco</nom>
+      <alpha>Falco</alpha>
+      <trigramme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </ident>
+    <infoNaissance>
+      <dateNais>1947-05-15</dateNais>
+      <villeNais>Pignan</villeNais>
+      <depNais>Var</depNais>
+      <paysNais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    </infoNaissance>
+    <dateDeces xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  </etatCivil>
+  <profession>
+    <libelleCourant>Directeur d'entreprise</libelleCourant>
+    <socProcINSEE>
+      <catSocPro>Chefs d'entreprise de 10 salariés ou plus</catSocPro>
+      <famSocPro>Artisans, commerçants et chefs d'entreprise</famSocPro>
+    </socProcINSEE>
+  </profession>
+  <uri_hatvp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <adresses>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdressePostale_Type">
+      <uid>AD44630</uid>
+      <type>2</type>
+      <typeLibelle>Adresse publiée de circonscription</typeLibelle>
+      <poids>21</poids>
+      <adresseDeRattachement xsi:nil="true"/>
+      <intitule>Mairie,</intitule>
+      <numeroRue xsi:nil="true"/>
+      <nomRue xsi:nil="true"/>
+      <complementAdresse xsi:nil="true"/>
+      <codePostal>83790</codePostal>
+      <ville>Pignans</ville>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdressePostale_Type">
+      <uid>AD44631</uid>
+      <type>2</type>
+      <typeLibelle>Adresse publiée de circonscription</typeLibelle>
+      <poids>22</poids>
+      <adresseDeRattachement xsi:nil="true"/>
+      <intitule>Conseil Général,</intitule>
+      <numeroRue xsi:nil="true"/>
+      <nomRue xsi:nil="true"/>
+      <complementAdresse xsi:nil="true"/>
+      <codePostal>83000</codePostal>
+      <ville>Toulon</ville>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseTelephonique_Type">
+      <uid>AD48060</uid>
+      <type>11</type>
+      <typeLibelle>Téléphone</typeLibelle>
+      <poids>21</poids>
+      <adresseDeRattachement>AD44630</adresseDeRattachement>
+      <valElec>04 94 48 81 34</valElec>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseTelephonique_Type">
+      <uid>AD48062</uid>
+      <type>11</type>
+      <typeLibelle>Téléphone</typeLibelle>
+      <poids>22</poids>
+      <adresseDeRattachement>AD44631</adresseDeRattachement>
+      <valElec>04 94 93 19 93</valElec>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseTelephonique_Type">
+      <uid>AD49693</uid>
+      <type>12</type>
+      <typeLibelle>Télécopie</typeLibelle>
+      <poids>22</poids>
+      <adresseDeRattachement>AD44631</adresseDeRattachement>
+      <valElec>04 94 91 36 85</valElec>
+    </adresse>
+    <adresse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="AdresseSiteWeb_Type">
+      <uid>AD317561</uid>
+      <type>23</type>
+      <typeLibelle>Url sénateur</typeLibelle>
+      <poids xsi:nil="true"/>
+      <adresseDeRattachement xsi:nil="true"/>
+      <valElec>https://www.senat.fr/senateur/falco_hubert95031c.html</valElec>
+    </adresse>
+  </adresses>
+  <mandats>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM15411011</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>GOUVERNEMENT</typeOrgane>
+      <dateDebut>2008-03-18</dateDebut>
+      <datePublication>2008-03-19</datePublication>
+      <dateFin>2010-11-13</dateFin>
+      <preseance>50</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>membre</codeQualite>
+        <libQualite>membre</libQualite>
+        <libQualiteSex>membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO384206</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM426328</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>COMSENAT</typeOrgane>
+      <dateDebut>2010-12-14</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2011-03-28</dateFin>
+      <preseance>10</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO211495</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM430343</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>COMSENAT</typeOrgane>
+      <dateDebut>2011-10-01</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-09-21</dateFin>
+      <preseance>10</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO211491</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM411317</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>COMSENAT</typeOrgane>
+      <dateDebut>2008-03-25</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2008-04-18</dateFin>
+      <preseance>10</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO211490</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM427959</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>COMSENAT</typeOrgane>
+      <dateDebut>2011-03-29</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2011-09-30</dateFin>
+      <preseance>10</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO211494</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM314201</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>COMSENAT</typeOrgane>
+      <dateDebut>2005-10-04</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2008-03-25</dateFin>
+      <preseance>10</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO211491</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM426332</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>GROUPESENAT</typeOrgane>
+      <dateDebut>2010-12-14</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-09-21</dateFin>
+      <preseance>4</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO286005</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM304306</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>GROUPESENAT</typeOrgane>
+      <dateDebut>2004-10-05</dateDebut>
+      <datePublication>2004-10-07</datePublication>
+      <dateFin>2008-04-18</dateFin>
+      <preseance>4</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Membre</codeQualite>
+        <libQualite>Membre</libQualite>
+        <libQualiteSex>Membre</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO286005</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM411011</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>MINISTERE</typeOrgane>
+      <dateDebut>2008-03-18</dateDebut>
+      <datePublication>2008-03-19</datePublication>
+      <dateFin>2009-06-23</dateFin>
+      <preseance>50</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Secrétaire d'État</codeQualite>
+        <libQualite>Secrétaire d'État</libQualite>
+        <libQualiteSex>Secrétaire d'État</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO410984</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatSimple_Type">
+      <uid>PM419585</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>MINISTERE</typeOrgane>
+      <dateDebut>2009-06-23</dateDebut>
+      <datePublication>2009-06-24</datePublication>
+      <dateFin>2010-11-13</dateFin>
+      <preseance>50</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Secrétaire d'État</codeQualite>
+        <libQualite>Secrétaire d'État</libQualite>
+        <libQualiteSex>Secrétaire d'État</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO419581</organeRef>
+      </organes>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatParlementaire_type">
+      <uid>PM303957</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>SENAT</typeOrgane>
+      <dateDebut>2004-10-01</dateDebut>
+      <datePublication>2004-10-02</datePublication>
+      <dateFin>2008-04-18</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Sénateur</codeQualite>
+        <libQualite>SENATEUR</libQualite>
+        <libQualiteSex>SENATEUR</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO78718</organeRef>
+      </organes>
+      <suppleants/>
+      <chambre xsi:nil="true"/>
+      <election>
+        <lieu>
+          <region xsi:nil="true"/>
+          <regionType xsi:nil="true"/>
+          <departement xsi:nil="true"/>
+          <numDepartement>83</numDepartement>
+          <numCirco xsi:nil="true"/>
+        </lieu>
+        <causeMandat xsi:nil="true"/>
+      </election>
+      <mandature>
+        <datePriseFonction xsi:nil="true"/>
+        <causeFin xsi:nil="true"/>
+        <premiereElection>0</premiereElection>
+        <placeHemicycle xsi:nil="true"/>
+        <mandatRemplaceRef xsi:nil="true"/>
+      </mandature>
+      <collaborateurs xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatParlementaire_type">
+      <uid>PM426335</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>SENAT</typeOrgane>
+      <dateDebut>2010-12-14</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2014-09-30</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Sénateur</codeQualite>
+        <libQualite>SENATEUR</libQualite>
+        <libQualiteSex>SENATEUR</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO78718</organeRef>
+      </organes>
+      <suppleants/>
+      <chambre xsi:nil="true"/>
+      <election>
+        <lieu>
+          <region xsi:nil="true"/>
+          <regionType xsi:nil="true"/>
+          <departement xsi:nil="true"/>
+          <numDepartement>83</numDepartement>
+          <numCirco xsi:nil="true"/>
+        </lieu>
+        <causeMandat xsi:nil="true"/>
+      </election>
+      <mandature>
+        <datePriseFonction xsi:nil="true"/>
+        <causeFin xsi:nil="true"/>
+        <premiereElection>0</premiereElection>
+        <placeHemicycle xsi:nil="true"/>
+        <mandatRemplaceRef xsi:nil="true"/>
+      </mandature>
+      <collaborateurs xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatParlementaire_type">
+      <uid>PM430228</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>SENAT</typeOrgane>
+      <dateDebut>2011-10-05</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2014-09-30</dateFin>
+      <preseance xsi:nil="true"/>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite xsi:nil="true"/>
+        <libQualite>Secrétaire</libQualite>
+        <libQualiteSex>Secrétaire</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO78718</organeRef>
+      </organes>
+      <suppleants/>
+      <chambre xsi:nil="true"/>
+      <election>
+        <lieu>
+          <region xsi:nil="true"/>
+          <regionType xsi:nil="true"/>
+          <departement xsi:nil="true"/>
+          <numDepartement xsi:nil="true"/>
+          <numCirco xsi:nil="true"/>
+        </lieu>
+        <causeMandat xsi:nil="true"/>
+      </election>
+      <mandature>
+        <datePriseFonction xsi:nil="true"/>
+        <causeFin xsi:nil="true"/>
+        <premiereElection>0</premiereElection>
+        <placeHemicycle xsi:nil="true"/>
+        <mandatRemplaceRef xsi:nil="true"/>
+      </mandature>
+      <collaborateurs xsi:nil="true"/>
+    </mandat>
+    <mandat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MandatParlementaire_type">
+      <uid>PM703677</uid>
+      <acteurRef>PA1275</acteurRef>
+      <legislature xsi:nil="true"/>
+      <typeOrgane>SENAT</typeOrgane>
+      <dateDebut>2014-10-01</dateDebut>
+      <datePublication xsi:nil="true"/>
+      <dateFin>2017-09-21</dateFin>
+      <preseance>20</preseance>
+      <nominPrincipale>1</nominPrincipale>
+      <infosQualite>
+        <codeQualite>Sénateur</codeQualite>
+        <libQualite>SENATEUR</libQualite>
+        <libQualiteSex>SENATEUR</libQualiteSex>
+      </infosQualite>
+      <organes>
+        <organeRef>PO78718</organeRef>
+      </organes>
+      <suppleants/>
+      <chambre xsi:nil="true"/>
+      <election>
+        <lieu>
+          <region xsi:nil="true"/>
+          <regionType xsi:nil="true"/>
+          <departement xsi:nil="true"/>
+          <numDepartement>83</numDepartement>
+          <numCirco xsi:nil="true"/>
+        </lieu>
+        <causeMandat xsi:nil="true"/>
+      </election>
+      <mandature>
+        <datePriseFonction xsi:nil="true"/>
+        <causeFin xsi:nil="true"/>
+        <premiereElection>0</premiereElection>
+        <placeHemicycle xsi:nil="true"/>
+        <mandatRemplaceRef xsi:nil="true"/>
+      </mandature>
+      <collaborateurs xsi:nil="true"/>
+    </mandat>
+  </mandats>
+</acteur>
