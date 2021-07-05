@@ -78,7 +78,7 @@ array_scrutin = np.array(pre_array_scrutin)
 
 def distance_renormalise(V1,V2):
     """
-    
+
 
     Parameters
     ----------
@@ -109,7 +109,7 @@ def min_max_distance(array_scrutin,distance):
                 L.append(distance(V1,V2))
     return min(L),max(L)
 mini,maxi = min_max_distance(array_scrutin,distance_renormalise)
- 
+
 m = DBSCAN(eps=0.7, min_samples=5,metric = distance_renormalise).fit(array_scrutin)
 
 
@@ -124,5 +124,5 @@ for eps_test in np.linspace(mini,maxi,100):
                 temp_list.append(list(labels).count(3))
             taille_classe_plus_petite = min(temp_list)
             dico[eps_test,size_test] = m,taille_classe_plus_petite
-            
+
 
