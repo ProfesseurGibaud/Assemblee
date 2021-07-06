@@ -7,60 +7,6 @@ import sqlite3
 
 import numpy as np
 from sklearn.cluster import DBSCAN
-import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
-from sklearn import datasets
-
-iris = datasets.load_iris()
-targets = iris.target
-colors = ["red","blue","green"]
-labels = ["C1","C2","C3"]
-
-kmeans = KMeans(n_clusters = 3)
-dbscan  = DBSCAN(eps=0.7, min_samples=5)
-dbscan.fit(iris.data)
-kmeans.fit(iris.data)
-y_kmeans = kmeans.predict(iris.data)
-
-
-
-
-for target in targets:
-    plt.scatter(iris.data[iris.target == target][:,0]
-                ,iris.data[iris.target == target][:,1]
-                ,c = colors[target]
-                ,label = labels[target]
-                ,s = 50)
-    labels[target] = None
-
-plt.grid()
-centers = kmeans.cluster_centers_
-plt.scatter(centers[:,0],centers[:,1],marker = 'o',c = 'gray', s = 300, alpha = 0.5, label = "Centers")
-plt.legend(loc = 1)
-plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -110,19 +56,29 @@ def min_max_distance(array_scrutin,distance):
     return min(L),max(L)
 mini,maxi = min_max_distance(array_scrutin,distance_renormalise)
 
-m = DBSCAN(eps=0.7, min_samples=5,metric = distance_renormalise).fit(array_scrutin)
-
 
 dico = {}
-for eps_test in np.linspace(mini,maxi,100):
+taille_class_liste = []
+for eps_test in np.linspace(mini + 0.1 ,maxi/2,100):
     for size_test in np.linspace(5,10,5):
+        print(eps_test,size_test)
         m = DBSCAN(eps=eps_test, min_samples=size_test,metric = distance_renormalise).fit(array_scrutin)
         labels = m.labels_
-        if set(labels) >1:
+        if len(set(labels)) >1:
             temp_list = []
             for label in set(labels):
                 temp_list.append(list(labels).count(3))
             taille_classe_plus_petite = min(temp_list)
-            dico[eps_test,size_test] = m,taille_classe_plus_petite
+            print("taille classe plus petite : {}".format(taille_classe_plus_petite))
+            taille_class_liste.append(taille_classe_plus_petite)
+            dico[eps_test,size_test] = (m,taille_classe_plus_petite)
+
+print(min(taille_class_liste))
+print()
+
+with open("Eps_Size.txt","w+") as file:
+    for (eps_test,size_test),(m,t) in dico.items():
+        string = str(eps_test) + " " + str(size_test) + " " + str(list(m.labels_).count(0)) + " " + str(list(m.labels_).count(-1)) + "\n"
+        file.write(string)
 
 
