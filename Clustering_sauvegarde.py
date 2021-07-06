@@ -75,3 +75,10 @@ for eps_test in np.linspace(mini + 0.1 ,maxi/2,100):
 
 print(min(taille_class_liste))
 print()
+
+with open("Eps_Size.txt","w+") as file:
+    for (eps_test,size_test),(m,t) in dico.items():
+        string = str(eps_test) + " " + str(size_test) + " " + str(list(m.labels_).count(0)) + " " + str(list(m.labels_).count(-1)) + "\n"
+        file.write(string)
+
+
