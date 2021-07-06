@@ -35,13 +35,13 @@ def min_max_distance(array_scrutin,distance):
 
 
 
-mini,maxi = min_max_distance(array_scrutin,distance_eucli)
+#mini,maxi = min_max_distance(array_scrutin,distance_eucli)
 
 
 
 def recherche_hyper_parametres_dbscan(array_scrutin,distance,text):
     """
-    
+
 
     Parameters
     ----------
@@ -71,15 +71,15 @@ def recherche_hyper_parametres_dbscan(array_scrutin,distance,text):
                 print("taille classe plus petite : {}".format(taille_classe_plus_petite))
                 taille_class_liste.append(taille_classe_plus_petite)
                 dico[eps_test,size_test] = (m,taille_classe_plus_petite)
-    
+
     print(min(taille_class_liste))
     print()
-    
+
     with open(os.join.path("Temp",text + ".txt"),"w+") as file:
         for (eps_test,size_test),(m,t) in dico.items():
             string = str(eps_test) + " " + str(size_test) + " " + str(list(m.labels_).count(0)) + " " + str(list(m.labels_).count(-1)) + "\n"
             file.write(string)
-            
+
 
 
 """
